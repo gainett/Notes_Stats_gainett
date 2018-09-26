@@ -29,8 +29,8 @@ because the -v gets "everything but", and the \w means any alphanumeric characte
 
 
 ####
-24-Set
-# Using git  
+##24-Set
+Using git  
 git diff : shows the differences between the file in the staging area and in the last version  
 
 git init: initiates a repository in the current folder.
@@ -39,3 +39,14 @@ git -a: does both add and commit in the same step
 ps:  shows the git processes running
 to kill a process, do :
 `kill -9 [#of the process]`
+
+##26-Set
+When you create a new git repository in your computer, you need to link it to an origin repository in github  
+This will check the name of the central, if it exists
+`git remote -v `
+
+This adds an origin repository
+`git remote add git@github.com:your_user_name/your_repo_name.git`
+
+This pushes your new repository to the origin you crested on github
+`git push origin master`
