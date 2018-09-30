@@ -41,12 +41,18 @@ to kill a process, do :
 `kill -9 [#of the process]`
 
 ##26-Set
-When you create a new git repository in your computer, you need to link it to an origin repository in github  
-This will check the name of the central, if it exists
+When you create a new git repository in your computer, you need to link it to an origin repository in github. You then crate online a new repository in github.    
+This will check the name of the central, if it exists.  
 `git remote -v `
 
-This adds an origin repository
+This adds an origin repository  
 `git remote add git@github.com:your_user_name/your_repo_name.git`
 
-This pushes your new repository to the origin you crested on github
-`git push origin master`
+This pushes your new repository to the origin you crested on github   
+`git push origin master`  
+
+If you are cloning, you don't need to git init a repository. Just make sure you are cloning into a folder that is not a git repository. The directory where you are cloning will not become a repository, but rather the cloned directory will become a git repository inside it.  
+
+`git clone git@github.com:xxxxxxxxxxxx`
+
+When two people linked to the same repository edit the same part of a file, git creates a branch. If you are editing and commit your file, then pulls the different file from the origin, git will show the conflict. You then have to manually solve the conflit, merge, then comit and push the merged file. THis will resolve the branch.  
