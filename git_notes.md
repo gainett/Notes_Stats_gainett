@@ -3,27 +3,35 @@
 `Ctrl+a`
 
 goes to the beggining of the line
+
 '`Ctrl+e`
 
 goes to to end of the line
+
 `Ctrl+d`
 
 "dones" the process
 
 In loops, naming the variable as "i"
+
 `$i`
 
 this calls the variable in the list
+
 `${i}`
 
 this calls the name of the variable
+
 `!`
+
 To reuse command, or use the number shown in history; ex:
+
 `!308`
 
 `2>`
 
 this redirects the error messages
+
 `&> `
 
 redirects both stout and error
@@ -31,9 +39,11 @@ redirects both stout and error
 `Crtl+z`
 
 puts a process to sleep
+
 `fg`
 
 resumes the process in the foreground
+
 `bg`
 
 resume in the background
@@ -62,6 +72,7 @@ shows the differences between the file in the staging area and in the last versi
 `git init`
 
 initiates a repository in the current folder
+
 `git -a`
 
 : does both add and commit in the same step  
@@ -70,17 +81,21 @@ initiates a repository in the current folder
 
 shows the git processes running
 to kill a process, do:
+
 `kill -9 [#of the process]`
 
 # 26-Set
 When you create a new git repository in your computer, you need to link it to an origin repository in github. You then crate online a new repository in github.    
-This will check the name of the central, if it exists.  
+This will check the name of the central, if it exists.
+
 `git remote -v `
 
-This adds an origin repository  
+This adds an origin repository
+
 `git remote add git@github.com:your_user_name/your_repo_name.git`
 
-This pushes your new repository to the origin you crested on github   
+This pushes your new repository to the origin you crested on github
+
 `git push origin master`
 
 If you are cloning, you don't need to git init a repository. Just make sure you are cloning into a folder that is not a git repository. The directory where you are cloning will not become a repository, but rather the cloned directory will become a git repository inside it.  
