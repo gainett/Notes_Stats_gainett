@@ -102,4 +102,14 @@ If you are cloning, you don't need to git init a repository. Just make sure you 
 
 `git clone git@github.com:xxxxxxxxxxxx`
 
-When two people linked to the same repository edit the same part of a file, git creates a branch. If you are editing and commit your file, then pulls the different file from the origin, git will show the conflict. You then have to manually solve the conflit, merge, then comit and push the merged file. THis will resolve the branch.  
+When two people linked to the same repository edit the same part of a file, git creates a branch. If you are editing and commit your file, then pulls the different file from the origin, git will show the conflict. You then have to manually solve the conflit, merge, then comit and push the merged file. THis will resolve the branch.
+
+# 30-Set
+
+Very useful thing for scripts: using **$1** as a variable will run the script with the first file you call in the command line.  You can also keep going and use $2, $3, etc...
+If you don't want to define the number of varibles, you can use **$@**.
+
+Other very useful thing is using the flag -x when running a bash. This shows each command that is being run and helps you debug your scripts.
+also, remember to place variables in quots in case they have space in their names!!
+
+
