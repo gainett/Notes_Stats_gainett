@@ -1,8 +1,11 @@
 # Class 3
 
-Ctrl+a goes to the beggining of the line
-Ctrl+e goes to to end of the line
-Ctrl+d "dones" the process
+`Ctrl+a`
+goes to the beggining of the line
+'`Ctrl+e`
+goes to to end of the line
+`Ctrl+d`
+"dones" the process
 
 In loops, naming the variable as "i"
 `$i`
@@ -40,12 +43,13 @@ because the -v gets "everything but", and the \w means any alphanumeric characte
 
 # 24-Set
 Using git  
-git diff : shows the differences between the file in the staging area and in the last version  
+`git diff`
+shows the differences between the file in the staging area and in the last version
 
-`git init``
+`git init`
 initiates a repository in the current folder
-'git -a'
-: does both add and commit in the same step
+`git -a`
+: does both add and commit in the same step  
 
 `ps`
 shows the git processes running
