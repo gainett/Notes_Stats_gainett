@@ -43,7 +43,9 @@ because the -v gets "everything but", and the \w means any alphanumeric characte
 
 # 24-Set
 Using git  
+
 `git diff`
+
 shows the differences between the file in the staging area and in the last version
 
 `git init`
@@ -69,6 +71,6 @@ This pushes your new repository to the origin you crested on github
 
 If you are cloning, you don't need to git init a repository. Just make sure you are cloning into a folder that is not a git repository. The directory where you are cloning will not become a repository, but rather the cloned directory will become a git repository inside it.  
 
-`git clone git@github.com:xxxxxxxxxxxx`  
+`git clone git@github.com:xxxxxxxxxxxx`
 
 When two people linked to the same repository edit the same part of a file, git creates a branch. If you are editing and commit your file, then pulls the different file from the origin, git will show the conflict. You then have to manually solve the conflit, merge, then comit and push the merged file. THis will resolve the branch.  
